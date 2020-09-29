@@ -39,6 +39,7 @@ main {
   margin: 10vh 0 10vh;
   overflow-y: scroll;
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
