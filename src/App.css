@@ -155,6 +155,7 @@ p {
 
 .sent {
   flex-direction: row-reverse;
+  flex-shrink: shrink;
 }
 
 .sent p {
