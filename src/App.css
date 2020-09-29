@@ -117,7 +117,7 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-family: 'Shadows Into Light', cursive;
   color: white;
-  font-size: 4em;
+  font-size: 2.5em;
   padding: 20px;
   
 }
@@ -156,7 +156,7 @@ p {
 
 .sent {
   flex-direction: row-reverse;
-  flex-shrink: shrink;
+  min-width: 50%;
 }
 
 .sent p {
@@ -167,6 +167,10 @@ p {
 .received p {
   background: #e5e5ea;
   color: black;
+}
+
+.received {
+  min-width: 50%;
 }
 
 img {
